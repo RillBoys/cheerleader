@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheerleader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-container" id="logoContainer">
+        <img src="sound/logo.png" alt="Logo" id="logo">
+    </div>
+    <audio id="cheerleader" src="sound/cheerleader.mp3"></audio>
+    <div class="overlay" id="overlay">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="sound/background1.mp4" type="video/mp4">
+        </video>
+        <div id="lyrics"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
